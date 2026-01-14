@@ -50,34 +50,39 @@ h3 {
 
 #nav {
   padding: 10px;
-  background-color: #000;
-  opacity: 75%;
   border-radius: 30px;
   height: 100%;
   margin: 20px;
 }
 
-.navBtn {
+.navBtn, .mainNavBtn {
   font-family: "Roboto", sans-serif;
-  color: #fff;
-  background-color: #7F7F7F;
   padding: 10px;
   margin: 5px;
-  border-radius: 30px;
+  border-radius: 15px;
   font-size: 14px;
   font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.mainNavBtn {
+  background-color: #222222;
+  color: #ffffff;
   border: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navBtn {
+  border: 1px solid #DED9CF;
+  background-color: #E8E4DB;
+  color: #4F4F4F;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navBtn:hover {
+  border: 1px solid #222222;
+  background-color: #222222;
+  color: #ffffff;
+  transition: all 600ms;
 }
 
 .App-header {
@@ -89,24 +94,4 @@ h3 {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-.beams-container {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-
 }
