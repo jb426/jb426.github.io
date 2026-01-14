@@ -1,33 +1,20 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
-function App() {
-  // return (
-  //   <div className="App">
-  //     <header className="App-header">
-  //       <img src={logo} className="App-logo" alt="logo" />
-  //       <p>
-  //         Edit <code>src/App.js</code> and save to reload.
-  //       </p>
-  //       <a
-  //         className="App-link"
-  //         href="https://reactjs.org"
-  //         target="_blank"
-  //         rel="noopener noreferrer"
-  //       >
-  //         Learn React
-  //       </a>
-  //     </header>
-  //   </div>
-  // );
-
+const App = () => {
   return (
-    <div className="App">
-      <section id="headNav"></section>
-      <section id="about"></section>
-      <section id="experience"></section>
-      <section id="projects"></section>
-      <section id="botNav"></section>
+    <div className="mainContainer">
+      <section className="headNav">
+        <div id="title">
+          <h2>Joseph Brucie</h2>
+          <h3>Front End Developer</h3>
+        </div>
+        <div id="nav">
+          <a href="/brucie_resume_2026.pdf" target="_blank" class="mainNavBtn">Resume</a>
+          <a href="https://www.linkedin.com/in/joebrucie/" target="_blank" class="navBtn">LinkedIn</a>
+          <button class="navBtn">GitHub</button>
+        </div>
+      </section>
     </div>
   );
 }
