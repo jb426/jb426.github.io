@@ -1,26 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 .App {
   text-align: center;
 }
 
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
 .mainContainer {
   position: relative;
-  background-color: #F6F4EF;
+  background-color: #f6f4ef;
   width: 100%;
   height: 100vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+  align-items: stretch;
+  justify-content: flex-start;
+  overflow: scroll;
+  overflow-x: hidden;
 }
 
 h1 {
   position: relative;
   color: #222222;
   font-family: "Roboto", sans-serif;
-  font-weight: 600;
+  font-weight: 1000;
   font-size: 64px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 h2 {
@@ -30,17 +48,18 @@ h2 {
 
 h3 {
   font-family: "Nunito";
-  color: #7F7F7F;
+  color: #7f7f7f;
   margin: 5px;
-  font-weight:600;
+  font-weight: 600;
 }
 
 /* Navigation */
 .headNav {
-  position: absolute;
-  display: flex;
+  position: relative;
   top: 0;
   width: 100%;
+  height: 100px;
+  display: flex;
   justify-content: space-between;
 }
 
@@ -50,12 +69,11 @@ h3 {
 
 #nav {
   padding: 10px;
-  border-radius: 30px;
-  height: 100%;
   margin: 20px;
 }
 
-.navBtn, .mainNavBtn {
+.navBtn,
+.mainNavBtn {
   font-family: "Roboto", sans-serif;
   padding: 10px;
   margin: 5px;
@@ -73,9 +91,9 @@ h3 {
 }
 
 .navBtn {
-  border: 1px solid #DED9CF;
-  background-color: #E8E4DB;
-  color: #4F4F4F;
+  border: 1px solid #ded9cf;
+  background-color: #e8e4db;
+  color: #4f4f4f;
 }
 
 .navBtn:hover {
@@ -85,13 +103,33 @@ h3 {
   transition: all 600ms;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Intro */
+.introBio {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
+
+.introBio p {
+  color: #222222;
+  font-family: "Nunito";
+  font-size: 20px;
+  width: 30%;
+  padding: 20px;
+}
+
+img {
+  width: 20%;
+  height: 20%;
+  border-radius: 10px;
+  align-items: center;
+  margin-right: 40px;
+}
+
+/* Experience */
+/* .experience {
+} */
+
+/* Media Queries */
+/* @media (max-width: 600px) {
+} */
