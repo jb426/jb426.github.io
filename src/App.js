@@ -10,7 +10,11 @@ const App = () => {
           <h3>Front End Developer</h3>
         </div>
         <div id="nav">
-          <a href="/brucie_resume_2026.pdf" target="_blank" class="mainNavBtn">
+          <a
+            href="/brucie_resume_2026.pdf"
+            target="_blank"
+            className="mainNavBtn"
+          >
             Resume
           </a>
           <a
