@@ -23,7 +23,7 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 75px;
   align-items: stretch;
   justify-content: flex-start;
   overflow: scroll;
@@ -48,7 +48,7 @@ h2 {
 
 h3 {
   font-family: "Nunito";
-  color: #7f7f7f;
+  color: #6e6e6e;
   margin: 5px;
   font-weight: 600;
 }
@@ -118,7 +118,7 @@ h3 {
   padding: 20px;
 }
 
-img {
+.profilePic {
   width: 20%;
   height: 20%;
   border-radius: 10px;
@@ -126,9 +126,59 @@ img {
   margin-right: 40px;
 }
 
-/* Experience */
-/* .experience {
-} */
+/* Experience Section */
+.experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experience h1 {
+  padding-bottom: 20px;
+}
+
+.experienceContent {
+  width: 30%;
+  /* margin: 10px; */
+  padding: 20px;
+  /* border-top: 1px solid #222222; */
+}
+
+.experienceContent p {
+  font-family: "Nunito";
+  color: #6e6e6e;
+}
+
+.experienceLogo {
+  width: 10%;
+  height: 10%;
+}
+
+.experienceTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+h4 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #7f7f7f;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+h5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #222222;
+  margin: 0;
+  padding-left: 10px;
+}
+
+em {
+  font-weight: 400;
+}
 
 /* Media Queries */
 /* @media (max-width: 600px) {
