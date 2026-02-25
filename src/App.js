@@ -63,11 +63,11 @@ const App = () => {
         <div className="experienceContent">
           <h4>Jul 2025 - Present</h4>
           <div className="experienceTitle">
-            <img
+            {/*<img
               src="marquette_logo.png"
               className="experienceLogo"
               alt="Marquette Logo"
-            ></img>
+            ></img>*/}
             <h5>
               Marquette University | <em>Web Application Specialist</em>
             </h5>
@@ -85,11 +85,11 @@ const App = () => {
         <div className="experienceContent">
           <h4>Sept 2024 - Apr 2025</h4>
           <div className="experienceTitle">
-            <img
+            {/*<img
               src="ag_logo.png"
               className="experienceLogo"
               alt="American Greetings Logo"
-            ></img>
+            ></img>*/}
             <h5>
               American Greetings | <em>Software Engineer 1</em>
             </h5>

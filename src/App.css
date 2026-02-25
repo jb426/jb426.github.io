@@ -140,7 +140,7 @@ h3 {
 .experienceContent {
   width: 30%;
   /* margin: 10px; */
-  padding: 20px;
+  padding: 10px;
   /* border-top: 1px solid #222222; */
 }
 
@@ -173,13 +173,9 @@ h5 {
   font-size: 16px;
   color: #222222;
   margin: 0;
-  padding-left: 10px;
+  /* padding-left: 10px; */
 }
 
 em {
   font-weight: 400;
 }
-
-/* Media Queries */
-/* @media (max-width: 600px) {
-} */
