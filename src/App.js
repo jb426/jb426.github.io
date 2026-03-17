@@ -1,15 +1,12 @@
 import React from "react";
 import "./App.css";
+import ExperienceItem from "./components/ExperienceItem";
 
 const App = () => {
   return (
     <div className="mainContainer">
       <section className="headNav">
-        <div id="title">
-          <h2>Joseph Brucie</h2>
-          <h3>Front End Developer</h3>
-        </div>
-        <div id="nav">
+        {/*<div id="nav">
           <a
             href="/brucie_resume_2026.pdf"
             target="_blank"
@@ -25,6 +22,20 @@ const App = () => {
             LinkedIn
           </a>
           <button className="navBtn">GitHub</button>
+        </div>*/}
+        <div id="nav">
+          <a href="" className="navBtn">
+            About
+          </a>
+          <a href="" className="navBtn">
+            Experience
+          </a>
+          <a href="" className="navBtn">
+            Projects
+          </a>
+          <a href="" className="mainNavBtn">
+            Connect
+          </a>
         </div>
       </section>
       <section className="intro">
@@ -60,79 +71,53 @@ const App = () => {
       </section>
       <section className="experience">
         <h1>Experience</h1>
-        <div className="experienceContent">
-          <h4>Jul 2025 - Present</h4>
-          <div className="experienceTitle">
-            {/*<img
-              src="marquette_logo.png"
-              className="experienceLogo"
-              alt="Marquette Logo"
-            ></img>*/}
-            <h5>
-              Marquette University | <em>Web Application Specialist</em>
-            </h5>
-          </div>
-          <p>
-            Web and digital platform specialist managing the Law School's Drupal
+        <ExperienceItem
+          date="Jul 2025 - Present"
+          company="Marquette University"
+          title="Web Application Specialist"
+          description="Web and digital platform specialist managing the Law School's Drupal
             and WordPress sites and related applications. Oversee performance
             and user access while designing and coding responsive email
             campaigns, event materials, and promotional banners. Troubleshoot
             complex web issues and collaborate with faculty, staff, and vendors
             to enhance user experience, integrate systems, and implement process
-            improvements that advance the school's digital strategy.
-          </p>
-        </div>
-        <div className="experienceContent">
-          <h4>Sept 2024 - Apr 2025</h4>
-          <div className="experienceTitle">
-            {/*<img
-              src="ag_logo.png"
-              className="experienceLogo"
-              alt="American Greetings Logo"
-            ></img>*/}
-            <h5>
-              American Greetings | <em>Software Engineer 1</em>
-            </h5>
-          </div>
-          <p>
-            Designed and developed premium interactive E-Card products using
+            improvements that advance the school's digital strategy."
+        />
+        <ExperienceItem
+          date="Sept 2024 - Apr 2025"
+          company="American Greetings"
+          title="Software Engineer 1"
+          description="Designed and developed premium interactive E-Card products using
             modern front-end technologies (Vue.js, JavaScript, Pixi.js,
             HTML/CSS, Adobe Creative Suite, Figma), while streamlining
             workflows, improving accessibility, mentoring interns, and
             collaborating across QA and product teams to enhance performance and
-            user engagement.
-          </p>
-        </div>
-        <div className="experienceContent">
-          <h4>Sept 2022 - Apr 2024</h4>
-          <h5>
-            American Greetings | <em>Associate Software Engineer</em>
-          </h5>
-          <p>
-            Supported the design and development of interactive E-Card products
+            user engagement."
+        />
+        <ExperienceItem
+          date="Sept 2022 - Apr 2024"
+          company="American Greetings"
+          title="Associate Software Engineer"
+          description="Supported the design and development of interactive E-Card products
             through asset updates, animation adjustments, and code optimization
             to improve performance. Managed Bitbucket repositories, developed
             templates to streamline future projects, and collaborated with QA
             teams to identify and resolve product defects. Led project with
             intern to create a premium E-Card using Pixi.js, GSAP, Adobe
             Animate, and CSS, while assisting in the intern hiring process and
-            providing ongoing mentorship throughout development.
-          </p>
-        </div>
-        <div className="experienceContent">
-          <h4>Jan 2022 - Sept 2022</h4>
-          <h5>
-            American Greetings | <em>Interactive Developer Intern</em>
-          </h5>
-          <p>
-            Developed interactive E-Card products and web applications using
+            providing ongoing mentorship throughout development."
+        />
+        <ExperienceItem
+          date="Jan 2022 - Sept 2022"
+          company="American Greetings"
+          title="Interactive Developer Intern"
+          description="Developed interactive E-Card products and web applications using
             Figma, JavaScript, Pixi.js, HTML, and CSS to deliver engaging
             digital experiences. Improved accessibility for people with
             disabilities by restructuring code across 100+ E-Cards as part of a
             large-scale initiative focused on meeting modern web standards and
-            enhancing usability.
-          </p>
-        </div>
+            enhancing usability."
+        />
       </section>
     </div>
   );

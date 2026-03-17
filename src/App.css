@@ -60,11 +60,7 @@ h3 {
   width: 100%;
   height: 100px;
   display: flex;
-  justify-content: space-between;
-}
-
-#title {
-  padding: 25px;
+  justify-content: center;
 }
 
 #nav {
@@ -76,7 +72,7 @@ h3 {
 .mainNavBtn {
   font-family: "Roboto", sans-serif;
   padding: 10px;
-  margin: 5px;
+  margin: 15px;
   border-radius: 15px;
   font-size: 14px;
   font-weight: 500;
@@ -139,9 +135,6 @@ h3 {
 
 .experienceContent {
   width: 30%;
-  /* margin: 10px; */
-  padding: 10px;
-  /* border-top: 1px solid #222222; */
 }
 
 .experienceContent p {
@@ -173,7 +166,6 @@ h5 {
   font-size: 16px;
   color: #222222;
   margin: 0;
-  /* padding-left: 10px; */
 }
 
 em {
