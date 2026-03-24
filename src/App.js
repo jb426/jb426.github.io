@@ -75,12 +75,12 @@ const App = () => {
           date="Jul 2025 - Present"
           company="Marquette University"
           title="Web Application Specialist"
-          description="Web and digital platform specialist managing the Law School's Drupal
-            and WordPress sites and related applications. Oversee performance
-            and user access while designing and coding responsive email
-            campaigns, event materials, and promotional banners. Troubleshoot
-            complex web issues and collaborate with faculty, staff, and vendors
-            to enhance user experience, integrate systems, and implement process
+          description="Web and digital platform specialist managing the Law School's Drupal 
+            and WordPress sites and related applications. Oversee performance 
+            while designing and coding responsive email campaigns, event materials, and 
+            promotional materials with Figma Software, Adobe Creative Cloud, and MailChimp. 
+            Troubleshoot complex web issues and collaborate with faculty, staff, and vendors 
+            to enhance the user experience, integrate intuitive systems, and implement process 
             improvements that advance the school's digital strategy."
         />
         <ExperienceItem
