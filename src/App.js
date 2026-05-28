@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import ExperienceItem from "./components/ExperienceItem";
+import ProjectItem from "./components/ProjectItem";
 
 const App = () => {
   return (
@@ -117,6 +118,17 @@ const App = () => {
             disabilities by restructuring code across 100+ E-Cards as part of a
             large-scale initiative focused on meeting modern web standards and
             enhancing usability."
+        />
+      </section>
+      <section className="projects">
+        {/* <h1>Projects</h1> */}
+        <ProjectItem
+          projectImg="tiger_time.jpg"
+          title="Modern Animals Tiger"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum suscipit ex eget tristique. Nullam pellentesque diam ut odio varius, quis elementum lacus pellentesque. Nullam et erat blandit, fringilla nisi eu, varius nisl. Vivamus finibus enim et elit feugiat, vel lobortis massa consequat."
+          technologies={[
+            "HTML, CSS, TypeScript, Pixi.js, GSAP, Figma, Adobe Creative Cloud",
+          ]}
         />
       </section>
     </div>
